@@ -1,4 +1,8 @@
 $(document).ready(__main__)
+// $(window).load(videoNext)
+import {addSign, signs as handSigns, formatSignProperty, signClick} from './filter.js'
+// import {signs} from './'
+
 
 function getCamera() {
   let video = $('#video').get(0)
@@ -71,7 +75,7 @@ function getQuery(i, p) {
 }
 
 console.log(setIndexQuery.return);
-console.log(index);
+// console.log(index);
 
 function loadGrid() {
   loadJSON('flow.json', function (flow) {
@@ -104,7 +108,7 @@ function loadGrid() {
       var similar_h = all_signs[handshape]
       var similar_l = all_signs[location]
       var random = all_signs['Random']
-      grid = generateResults(
+      var grid = generateResults(
         sign,
         similar.slice(),
         similar_h.slice(),
@@ -125,8 +129,10 @@ function loadGrid() {
     let staticImage = !(
       $('.results-grid').hasClass('word') || $('.results-grid').hasClass('gif')
     )
+
     grid.forEach(function (name) {
       addImage(name, staticImage)
+      // displaySigns(name)
     })
     //bindResults(staticImage)
   })
@@ -143,11 +149,39 @@ function setDisplay(total, modes, p, i) {
   }
 }
 
+
+var filterReadySigns = {}
+
+handSigns.forEach((sign) => {
+  filterReadySigns[sign.name] = sign
+})
+
+
 function addImage(name) {
   const id = name.split(' ').join('_')
-  $('.results-grid').append(
-    `<div class="result-box"> <div class="result-image" id="${id}"></div><div class="result-title"><p> ${name} </p></div></div>`
-  )
+  const sign = filterReadySigns[name]
+
+  let grid =  `<div class="result-box"> <div class="result-image" id="${id}"></div><div class="result-title"><p> ${name} </p></div>`
+
+  if(sign !== undefined){
+
+        grid += `<div class="sign-properties"><p><strong>Hands:</strong> ${formatSignProperty(sign.hands)}</p>
+        <span class="seperator">|</span>
+        <p><strong>Handshape:</strong> ${formatSignProperty(sign.handshape)}</p>
+        <span class="seperator">|</span>
+        <p><strong>Location:</strong> ${formatSignProperty(sign.location)}</p>
+        <span class="seperator">|</span>
+        <p><strong>Movement:</strong> ${formatSignProperty(sign.movement)}</p>
+        </div>`
+      }
+  grid += `</div>`
+
+  $('.results-grid').append(grid)
+
+
+
+
+
   let curr = $(`#${id}`)
 
   curr.css('background-image', 'url(../images/' + id + '.gif')
@@ -457,6 +491,14 @@ function replaceLocation(destination) {
     appName === 'pages' ? appName : `${appName}/pages`
   }/${destination}.html?i=${destination === 'video' ? i + 1 : i}&p=${p}`
 }
+
+// Added signs - start
+var el = document.getElementById ("videoNext");
+if(el){
+  el.addEventListener ("click", videoNext, false);
+}
+// Added signs - end
+
 
 function videoNext() {
   const date = new Date()

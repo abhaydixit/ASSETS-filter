@@ -1,4 +1,4 @@
-const signs = [
+export const signs = [
   {
     URL: './images/A_lot.gif',
     name: 'A lot',
@@ -2926,7 +2926,7 @@ signs.forEach((sign) => {
 let results = []
 let filters = {}
 
-function formatSignProperty(property) {
+export function formatSignProperty(property) {
   return Array.isArray(property) ? property.join(', ') : property
 }
 
@@ -2965,7 +2965,7 @@ async function logTime() {
   }
 }
 
-function signClick(name) {
+export function signClick(name) {
   const stimuliSign = localStorage.getItem('stimuliSign')
 
   if (stimuliSign === name) {
@@ -2973,7 +2973,14 @@ function signClick(name) {
   }
 }
 
-function addSign(sign, index) {
+// Added signs - start
+var el = document.getElementById ("videoNext");
+if(el){
+  el.addEventListener ("click", videoNext, false);
+}
+// Added signs - end
+
+export function addSign(sign, index) {
   const elementId = `${sign.name}-${index}`
   $('.results-grid').append(
     `<div class="result-box" id="${index}" onclick="signClick('${sign.name}')">
@@ -3023,11 +3030,95 @@ function hideFilterContainer(containerId) {
   filtersEl.style.display = 'none'
 }
 
+
+// Added signs - start
+const filterMapping = {
+  'movement-1': ['movement', 'Non-Repeated', 1],
+  'movement-2': ['movement', 'Repeated', 2],
+
+  'location-1': ['location', 'In space', 1],
+  'location-2': ['location', 'face', 2],
+  'location-3': ['location', 'headside', 3],
+  'location-4': ['location', 'palm', 4],
+  'location-5': ['location', 'hand', 5],
+  'location-6': ['location', 'arm', 6],
+  'location-7': ['location', 'torso', 7],
+  'location-8': ['location', 'other', 8],
+
+  'hands-1': ['hands', 'One-handed, moving', 1],
+  'hands-2': ['hands', 'Two-handed, symmetrical', 2],
+  'hands-3': ['Two-handed, asymmetrical', 3],
+
+  'handshape-1': ['handshape', 'A', 1],
+  'handshape-2': ['handshape', 'Open A', 2],
+  'handshape-3': ['handshape', 'B', 3],
+  'handshape-4': ['handshape', 'Open B', 4],
+  'handshape-5': ['handshape', 'Bent B', 5],
+  'handshape-6': ['handshape', 'C', 6],
+  'handshape-7': ['handshape', 'D', 7],
+  'handshape-8': ['handshape', 'E', 8],
+  'handshape-9': ['handshape', 'F', 9],
+  'handshape-10': ['handshape', 'Open F', 10],
+  'handshape-11': ['handshape', 'G',11],
+  'handshape-12': ['handshape', 'H',12],
+  'handshape-13': ['handshape', 'I',13],
+  'handshape-14': ['handshape', 'K',14],
+  'handshape-15': ['handshape', 'L',15],
+  'handshape-16': ['handshape', 'Bent L',16],
+  'handshape-17': ['handshape', 'M',17],
+  'handshape-18': ['handshape', 'N',18],
+  'handshape-19': ['handshape', 'Open N',19 ],
+  'handshape-20': ['handshape', 'O',20 ],
+  'handshape-21': ['handshape', 'Baby O',21],
+  'handshape-22': ['handshape', 'Flattened O',22],
+  'handshape-23': ['handshape', 'R',23 ],
+  'handshape-24': ['handshape', 'S',24],
+  'handshape-25': ['handshape', 'T',25],
+  'handshape-26': ['handshape', 'V',26],
+  'handshape-27': ['handshape', 'Bent V',27],
+  'handshape-28': ['handshape', 'W',28],
+  'handshape-29': ['handshape', 'X',29 ],
+  'handshape-30': ['handshape', 'Y',30],
+  'handshape-31': ['handshape', 'L1',31],
+  'handshape-32': ['handshape', '1L',32],
+  'handshape-33': ['handshape', '1',33],
+  'handshape-34': ['handshape', '3',34 ],
+  'handshape-35': ['handshape', 'Bent 3',35 ],
+  'handshape-36': ['handshape', '4',36],
+  'handshape-37': ['handshape', '5',37],
+  'handshape-38': ['handshape', 'Bent 5',38],
+  'handshape-39': ['handshape', '8',39],
+  'handshape-40': ['handshape', 'Open 8',40],
+
+}
+
+const baseFilters = document.getElementById("base-filters");
+if (baseFilters){
+  baseFilters.addEventListener("click", (event) => {
+    if (event.target.nodeName === 'BUTTON'){
+      toggleFilters(event.target.name);
+    } else if (event.target.nodeName === 'P') {
+      const el = filterMapping[event.target.id];
+      filterByType(el[0], el[1], el[2]);
+    } else {
+      return;
+    }
+
+  })
+}
+
+// const specificFilter = document.getElementById('movement-filters');
+// if(specificFilter) {
+//   specificFilter.onclick = filterByType()
+// }
+
+// Added signs - end
+
 function toggleFilters(containerId) {
+
   const filtersEl = document.getElementById(containerId)
   const clearEl = document.getElementById('clear')
 
-  // console.log(filtersEl.style.display, filtersEl, containerId)
   const imgContainer = document.querySelector('.image-column')
   // hide other filter containers and toggle only the filter container with the containerId
   filterContainers
@@ -3103,7 +3194,6 @@ function filterByType(type, value, index = 0) {
   const localSigns = JSON.parse(localStorage.getItem('signs'))
   const user_signs = localSigns
     .map((signName) => {
-      console.log(signName, filterReadySigns[signName])
       return filterReadySigns[signName]
     })
     .filter((sign) => sign !== undefined)
@@ -3136,9 +3226,7 @@ function filterByType(type, value, index = 0) {
     filters[type] = [value]
   }
 
-  console.log(filters)
 
-  console.log(user_signs)
   user_signs.forEach((sign) => {
     if (sign) {
       const filterTypes = Object.keys(filters)
@@ -3163,7 +3251,6 @@ function filterByType(type, value, index = 0) {
     }
   })
 
-  console.log(results)
 
   const errorMessageEl = document.getElementById('error-message')
 
@@ -3175,38 +3262,6 @@ function filterByType(type, value, index = 0) {
   } else {
     errorMessageEl.style.display = 'none'
 
-    // const stimuliSign = localStorage.getItem('stimuliSign')
-    // console.log('StimuliSign', stimuliSign)
-    // let mainIndex = -1
-    // let position_sign = {}
-    // const participantCode = getParameter('p')
-    //const positionIndex = POSITION_RANGE[participantCode - 1]
-    //let ui_signs = []
-
-    // results.forEach((sign, index) => {
-    //   if (
-    //     sign.name === stimuliSign &&
-    //     STIMULI_SIGNS.includes(stimuliSign.toUpperCase())
-    //   ) {
-    //     mainIndex = index
-    //     if (position_sign[positionIndex - 1]) {
-    //       position_sign[index] = position_sign[positionIndex - 1]
-    //       position_sign[positionIndex - 1] = sign
-    //     } else {
-    //       position_sign[positionIndex - 1] = sign
-    //     }
-    //   } else {
-    //     if (position_sign[index]) {
-    //       position_sign[mainIndex] = sign
-    //     } else {
-    //       position_sign[index] = sign
-    //     }
-    //   }
-    // })
-
-    // ui_signs = Object.values(position_sign)
-
-    // console.log(position_sign, ui_signs)
     const topResults = results.filter((result) => {
       return result[type] === value
     })
@@ -3224,19 +3279,6 @@ function filterByType(type, value, index = 0) {
     // loop through the results and create a div with an img element for each sign
     // append the above elements to signs container
     results.forEach((sign, index) => {
-      // const divElement = document.createElement('div')
-      // const imgElement = document.createElement('img')
-      // const labelElement = document.createElement('p')
-      // labelElement.classList.add('result-title')
-      // imgElement.classList.add('result-image')
-      // imgElement.src = sign.URL
-      // imgElement.alt = `${sign.name.toLocaleUpperCase()} Sign Image`
-      // imgElement.title = `${sign.name} Sign Image`
-      // labelElement.innerText = `${sign.name}`
-      // divElement.appendChild(imgElement)
-      // divElement.appendChild(labelElement)
-      // divElement.classList.add('result-box')
-      // signsContainer.appendChild(divElement)
       addSign(sign, index)
     })
   }
