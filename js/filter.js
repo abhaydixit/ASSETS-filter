@@ -3089,7 +3089,6 @@ const filterMapping = {
   'handshape-38': ['handshape', 'Bent 5',38],
   'handshape-39': ['handshape', '8',39],
   'handshape-40': ['handshape', 'Open 8',40],
-
 }
 
 const baseFilters = document.getElementById("base-filters");
@@ -3106,12 +3105,6 @@ if (baseFilters){
 
   })
 }
-
-// const specificFilter = document.getElementById('movement-filters');
-// if(specificFilter) {
-//   specificFilter.onclick = filterByType()
-// }
-
 // Added signs - end
 
 function toggleFilters(containerId) {

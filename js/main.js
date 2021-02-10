@@ -75,7 +75,6 @@ function getQuery(i, p) {
 }
 
 console.log(setIndexQuery.return);
-// console.log(index);
 
 function loadGrid() {
   loadJSON('flow.json', function (flow) {
@@ -116,8 +115,6 @@ function loadGrid() {
         random.slice(),
         index
       )
-      //console.log(grid.includes(sign))
-      console.log(typeof grid)
 
       setDisplay(total_signs_flow, LatinSquare(display_modes, p), p, i)
     } else {
@@ -132,7 +129,6 @@ function loadGrid() {
 
     grid.forEach(function (name) {
       addImage(name, staticImage)
-      // displaySigns(name)
     })
     //bindResults(staticImage)
   })
@@ -163,6 +159,7 @@ function addImage(name) {
 
   let grid =  `<div class="result-box"> <div class="result-image" id="${id}"></div><div class="result-title"><p> ${name} </p></div>`
 
+  // Display only if data available
   if(sign !== undefined){
 
         grid += `<div class="sign-properties"><p><strong>Hands:</strong> ${formatSignProperty(sign.hands)}</p>
@@ -177,11 +174,6 @@ function addImage(name) {
   grid += `</div>`
 
   $('.results-grid').append(grid)
-
-
-
-
-
   let curr = $(`#${id}`)
 
   curr.css('background-image', 'url(../images/' + id + '.gif')
