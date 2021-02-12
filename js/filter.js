@@ -25,7 +25,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open B",
   },
   {
@@ -35,7 +35,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "X",
   },
   {
@@ -45,7 +45,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open B",
   },
   {
@@ -65,7 +65,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1L",
   },
   {
@@ -75,7 +75,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "B",
   },
   {
@@ -95,7 +95,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -105,7 +105,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -115,7 +115,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open B",
   },
   {
@@ -125,7 +125,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Baby O",
   },
   {
@@ -135,7 +135,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "S",
   },
   {
@@ -145,7 +145,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open A",
   },
   {
@@ -155,7 +155,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "8",
   },
   {
@@ -165,7 +165,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "Open A",
   },
   {
@@ -175,7 +175,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "8",
   },
   {
@@ -185,7 +185,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Open B",
   },
   {
@@ -195,7 +195,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent 5",
   },
   {
@@ -205,7 +205,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent 5",
   },
   {
@@ -215,7 +215,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent 5",
   },
   {
@@ -225,7 +225,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -235,7 +235,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open B",
   },
   {
@@ -245,7 +245,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "F",
   },
   {
@@ -255,7 +255,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open B",
   },
   {
@@ -265,7 +265,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Flattened O",
   },
   {
@@ -275,7 +275,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent B",
   },
   {
@@ -285,7 +285,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "5",
   },
   {
@@ -295,7 +295,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "V",
   },
   {
@@ -305,7 +305,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open B",
   },
   {
@@ -315,7 +315,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -325,7 +325,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "C",
   },
   {
@@ -335,7 +335,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "F",
   },
   {
@@ -345,7 +345,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Open B",
   },
   {
@@ -355,7 +355,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "C",
   },
   {
@@ -375,7 +375,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent L",
   },
   {
@@ -395,7 +395,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "C",
   },
   {
@@ -415,7 +415,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1L",
   },
   {
@@ -435,7 +435,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "B ",
   },
   {
@@ -445,7 +445,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "S",
   },
   {
@@ -455,7 +455,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "F",
   },
   {
@@ -465,7 +465,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Bent 5",
   },
   {
@@ -475,7 +475,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -485,7 +485,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "C",
   },
   {
@@ -495,7 +495,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -505,7 +505,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open 8",
   },
   {
@@ -515,7 +515,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open B",
   },
   {
@@ -525,7 +525,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open B",
   },
   {
@@ -535,7 +535,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -545,7 +545,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "Open B",
   },
   {
@@ -555,7 +555,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "C",
   },
   {
@@ -565,7 +565,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Y",
   },
   {
@@ -575,7 +575,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "1",
   },
   {
@@ -585,7 +585,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -595,7 +595,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Bent 5",
   },
   {
@@ -605,7 +605,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "V",
   },
   {
@@ -625,7 +625,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -635,7 +635,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -645,7 +645,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Flattened O",
   },
   {
@@ -655,7 +655,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "C",
   },
   {
@@ -695,7 +695,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open 8",
   },
   {
@@ -705,7 +705,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Flattened O",
   },
   {
@@ -715,7 +715,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "X",
   },
   {
@@ -725,7 +725,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "V",
   },
   {
@@ -735,7 +735,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "E",
   },
   {
@@ -745,7 +745,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open 8",
   },
   {
@@ -755,7 +755,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "E",
   },
   {
@@ -765,7 +765,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "1",
   },
   {
@@ -775,7 +775,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Open A",
   },
   {
@@ -785,7 +785,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Open 8",
   },
   {
@@ -795,7 +795,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Flattened O",
   },
   {
@@ -805,7 +805,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "A",
   },
   {
@@ -825,7 +825,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -835,7 +835,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "5",
   },
   {
@@ -845,7 +845,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -855,7 +855,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "8",
   },
   {
@@ -865,7 +865,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "S",
   },
   {
@@ -875,7 +875,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -885,7 +885,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "5",
   },
   {
@@ -915,7 +915,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent B",
   },
   {
@@ -945,7 +945,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "C",
   },
   {
@@ -955,7 +955,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "F",
   },
   {
@@ -965,7 +965,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "V",
   },
   {
@@ -975,7 +975,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Bent 5",
   },
   {
@@ -1015,7 +1015,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open B",
   },
   {
@@ -1025,7 +1025,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "V",
   },
   {
@@ -1055,7 +1055,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "C",
   },
   {
@@ -1065,7 +1065,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Open A",
   },
   {
@@ -1075,7 +1075,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Bent L",
   },
   {
@@ -1105,7 +1105,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Open B",
   },
   {
@@ -1115,7 +1115,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -1135,7 +1135,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -1145,7 +1145,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -1155,7 +1155,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -1165,7 +1165,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "F",
   },
   {
@@ -1185,7 +1185,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent V",
   },
   {
@@ -1205,7 +1205,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -1215,7 +1215,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open N",
   },
   {
@@ -1245,7 +1245,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "4",
   },
   {
@@ -1265,7 +1265,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Y",
   },
   {
@@ -1275,7 +1275,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "5",
   },
   {
@@ -1285,7 +1285,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "V",
   },
   {
@@ -1295,7 +1295,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open 8",
   },
   {
@@ -1305,7 +1305,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -1325,7 +1325,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "I",
   },
   {
@@ -1335,7 +1335,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open 8",
   },
   {
@@ -1345,7 +1345,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent B",
   },
   {
@@ -1355,7 +1355,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1L",
   },
   {
@@ -1365,7 +1365,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Flattened O",
   },
   {
@@ -1375,7 +1375,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "K",
   },
   {
@@ -1385,7 +1385,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Bent B",
   },
   {
@@ -1395,7 +1395,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent L",
   },
   {
@@ -1405,7 +1405,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "5",
   },
   {
@@ -1415,7 +1415,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Baby O",
   },
   {
@@ -1425,7 +1425,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "I",
   },
   {
@@ -1435,7 +1435,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "V",
   },
   {
@@ -1445,7 +1445,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Bent L",
   },
   {
@@ -1455,7 +1455,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "S",
   },
   {
@@ -1485,7 +1485,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "8",
   },
   {
@@ -1495,7 +1495,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Flattened O",
   },
   {
@@ -1535,7 +1535,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "V",
   },
   {
@@ -1555,7 +1555,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Flattened O",
   },
   {
@@ -1565,7 +1565,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Open 8",
   },
   {
@@ -1575,7 +1575,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "G",
   },
   {
@@ -1595,7 +1595,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "N",
   },
   {
@@ -1615,7 +1615,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -1635,7 +1635,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "O",
   },
   {
@@ -1645,7 +1645,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F ",
   },
   {
@@ -1655,7 +1655,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "S",
   },
   {
@@ -1665,7 +1665,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "F",
   },
   {
@@ -1675,7 +1675,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "O",
   },
   {
@@ -1685,7 +1685,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open B",
   },
   {
@@ -1695,7 +1695,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "5",
   },
   {
@@ -1715,7 +1715,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Open B",
   },
   {
@@ -1725,7 +1725,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "G",
   },
   {
@@ -1735,7 +1735,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "K",
   },
   {
@@ -1755,7 +1755,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "C",
   },
   {
@@ -1765,7 +1765,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent B",
   },
   {
@@ -1775,7 +1775,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Bent 5",
   },
   {
@@ -1805,7 +1805,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "5",
   },
   {
@@ -1815,7 +1815,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "Flattened O",
   },
   {
@@ -1825,7 +1825,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F ",
   },
   {
@@ -1835,7 +1835,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent V",
   },
   {
@@ -1845,7 +1845,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "V",
   },
   {
@@ -1855,7 +1855,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "5",
   },
   {
@@ -1865,7 +1865,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "G",
   },
   {
@@ -1875,7 +1875,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "K",
   },
   {
@@ -1885,7 +1885,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "O",
   },
   {
@@ -1895,7 +1895,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "V",
   },
   {
@@ -1905,7 +1905,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open A",
   },
   {
@@ -1915,7 +1915,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Bent 5",
   },
   {
@@ -1935,7 +1935,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "R",
   },
   {
@@ -1945,7 +1945,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "V",
   },
   {
@@ -1955,7 +1955,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -1965,7 +1965,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Flattened O",
   },
   {
@@ -1985,7 +1985,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "Bent B",
   },
   {
@@ -1995,7 +1995,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent V",
   },
   {
@@ -2014,7 +2014,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent 5",
   },
   {
@@ -2024,7 +2024,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "X",
   },
   {
@@ -2034,7 +2034,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "V",
   },
   {
@@ -2054,7 +2054,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1L",
   },
   {
@@ -2064,7 +2064,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Flattened O",
   },
   {
@@ -2074,7 +2074,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Open B",
   },
   {
@@ -2084,7 +2084,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "4",
   },
   {
@@ -2094,7 +2094,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Open A",
   },
   {
@@ -2114,7 +2114,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -2124,7 +2124,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -2134,7 +2134,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Y",
   },
   {
@@ -2144,7 +2144,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "S",
   },
   {
@@ -2154,7 +2154,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Open 8",
   },
   {
@@ -2164,7 +2164,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Y",
   },
   {
@@ -2174,7 +2174,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -2184,7 +2184,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "H",
   },
   {
@@ -2194,7 +2194,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Flattened O",
   },
   {
@@ -2204,7 +2204,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -2214,7 +2214,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent V",
   },
   {
@@ -2224,7 +2224,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Flattened O",
   },
   {
@@ -2254,7 +2254,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "V",
   },
   {
@@ -2274,7 +2274,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -2294,7 +2294,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Bent V",
   },
   {
@@ -2314,7 +2314,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "V",
   },
   {
@@ -2324,7 +2324,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "5",
   },
   {
@@ -2334,7 +2334,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "S",
   },
   {
@@ -2344,7 +2344,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Y",
   },
   {
@@ -2354,7 +2354,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -2364,7 +2364,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -2374,7 +2374,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Flattened O",
   },
   {
@@ -2384,7 +2384,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "H",
   },
   {
@@ -2404,7 +2404,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent B",
   },
   {
@@ -2414,7 +2414,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "I",
   },
   {
@@ -2434,7 +2434,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "T",
   },
   {
@@ -2444,7 +2444,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open A",
   },
   {
@@ -2454,7 +2454,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "T",
   },
   {
@@ -2464,7 +2464,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Open 8",
   },
   {
@@ -2474,7 +2474,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Open B",
   },
   {
@@ -2484,7 +2484,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "N",
   },
   {
@@ -2504,7 +2504,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -2544,7 +2544,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "A",
   },
   {
@@ -2554,7 +2554,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Bent V",
   },
   {
@@ -2564,7 +2564,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Open 8",
   },
   {
@@ -2574,7 +2574,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "H",
   },
   {
@@ -2584,7 +2584,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "V",
   },
   {
@@ -2594,7 +2594,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "3",
   },
   {
@@ -2604,7 +2604,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Open B",
   },
   {
@@ -2634,7 +2634,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "K",
   },
   {
@@ -2644,7 +2644,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "1",
   },
   {
@@ -2654,7 +2654,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "H",
   },
   {
@@ -2664,7 +2664,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "V",
   },
   {
@@ -2674,7 +2674,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -2684,7 +2684,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "1",
   },
   {
@@ -2694,7 +2694,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "torso",
+    location: "Torso",
     handshape: "Bent B",
   },
   {
@@ -2724,7 +2724,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "F",
   },
   {
@@ -2734,7 +2734,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "W",
   },
   {
@@ -2744,7 +2744,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Non-Repeated",
-    location: "arm",
+    location: "Arm",
     handshape: "Y",
   },
   {
@@ -2784,7 +2784,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "L",
   },
   {
@@ -2794,7 +2794,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Open B",
   },
   {
@@ -2804,7 +2804,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Non-Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Open B",
   },
   {
@@ -2814,7 +2814,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Non-Repeated",
-    location: "face",
+    location: "Face",
     handshape: "5",
   },
   {
@@ -2824,7 +2824,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "S",
   },
   {
@@ -2834,7 +2834,7 @@ export const signs = [
 
     hands: "Two-handed, asymmetrical",
     movement: "Repeated",
-    location: "palm",
+    location: "Palm",
     handshape: "Baby O",
   },
   {
@@ -2844,7 +2844,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "face",
+    location: "Face",
     handshape: "Y",
   },
   {
@@ -2854,7 +2854,7 @@ export const signs = [
 
     hands: "Two-handed, symmetrical",
     movement: "Repeated",
-    location: "hand",
+    location: "Hand",
     handshape: "Y",
   },
   {
@@ -2874,7 +2874,7 @@ export const signs = [
 
     hands: "One-handed, moving",
     movement: "Repeated",
-    location: "headside",
+    location: "Headside",
     handshape: "Open A",
   },
 ];
@@ -3035,13 +3035,13 @@ const filterMapping = {
   "movement-2": ["movement", "Repeated", 2],
 
   "location-1": ["location", "In space", 1],
-  "location-2": ["location", "face", 2],
-  "location-3": ["location", "headside", 3],
-  "location-4": ["location", "palm", 4],
-  "location-5": ["location", "hand", 5],
-  "location-6": ["location", "arm", 6],
-  "location-7": ["location", "torso", 7],
-  "location-8": ["location", "other", 8],
+  "location-2": ["location", "Face", 2],
+  "location-3": ["location", "Headside", 3],
+  "location-4": ["location", "Palm", 4],
+  "location-5": ["location", "Hand", 5],
+  "location-6": ["location", "Arm", 6],
+  "location-7": ["location", "Torso", 7],
+  "location-8": ["location", "Other", 8],
 
   "hands-1": ["hands", "One-handed, moving", 1],
   "hands-2": ["hands", "Two-handed, symmetrical", 2],
