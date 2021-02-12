@@ -3,7 +3,7 @@ export const signs = [
     URL: "./images/A_lot.gif",
     name: "A lot",
     handshape: "Bent 5",
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -13,7 +13,7 @@ export const signs = [
     name: "Abandon",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "S",
@@ -63,7 +63,7 @@ export const signs = [
     name: "Alcohol",
     handshape: "1L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "1L",
@@ -93,7 +93,7 @@ export const signs = [
     name: "Announce",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "1",
@@ -103,7 +103,7 @@ export const signs = [
     name: "Answer",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "1",
@@ -113,7 +113,7 @@ export const signs = [
     name: "Applause",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Palm",
     handshape: "Open B",
@@ -133,7 +133,7 @@ export const signs = [
     name: "Appointment",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "S",
@@ -143,7 +143,7 @@ export const signs = [
     name: "Association",
     handshape: "Open A",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "Open A",
@@ -153,7 +153,7 @@ export const signs = [
     name: "Australia",
     handshape: "8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Torso",
     handshape: "8",
@@ -173,7 +173,7 @@ export const signs = [
     name: "Awful",
     handshape: "8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "8",
@@ -193,7 +193,7 @@ export const signs = [
     name: "Ball",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "Bent 5",
@@ -203,7 +203,7 @@ export const signs = [
     name: "Balloon",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "Bent 5",
@@ -213,7 +213,7 @@ export const signs = [
     name: "Beard",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "Bent 5",
@@ -233,7 +233,7 @@ export const signs = [
     name: "Become",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Palm",
     handshape: "Open B",
@@ -249,11 +249,31 @@ export const signs = [
     handshape: "F",
   },
   {
+    URL: "./images/Big.gif",
+    name: "Big",
+    handshape: "Bent L",
+
+    hands: "Two-handed, Symmetrical",
+    movement: "Non-Repeated",
+    location: "Hand",
+    handshape: "Bent L",
+  },
+  {
+    URL: "./images/Bite.gif",
+    name: "Bite",
+    handshape: "Bent 5",
+
+    hands: "Two-handed, Symmetrical",
+    movement: "Non-Repeated",
+    location: "In Space",
+    handshape: "Bent 5",
+  },
+  {
     URL: "./images/Book.gif",
     name: "Book",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Palm",
     handshape: "Open B",
@@ -283,7 +303,7 @@ export const signs = [
     name: "Breathe",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Torso",
     handshape: "5",
@@ -313,7 +333,7 @@ export const signs = [
     name: "But",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "1",
@@ -373,7 +393,7 @@ export const signs = [
     name: "Checking account",
     handshape: "Bent L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Bent L",
@@ -393,7 +413,7 @@ export const signs = [
     name: "Choke",
     handshape: "C",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "C",
@@ -413,7 +433,7 @@ export const signs = [
     name: "Cigarette",
     handshape: "1L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "1L",
@@ -423,7 +443,7 @@ export const signs = [
     name: "Close window",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Open B",
@@ -433,7 +453,7 @@ export const signs = [
     name: "Close",
     handshape: "B ",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "B ",
@@ -443,7 +463,7 @@ export const signs = [
     name: "Coffee",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "S",
@@ -493,7 +513,7 @@ export const signs = [
     name: "Conflict",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "1",
@@ -503,7 +523,7 @@ export const signs = [
     name: "Contact",
     handshape: "Open 8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Open 8",
@@ -513,7 +533,7 @@ export const signs = [
     name: "Cook",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "Open B",
@@ -533,7 +553,7 @@ export const signs = [
     name: "Cooperate",
     handshape: "F",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "F",
@@ -563,7 +583,7 @@ export const signs = [
     name: "Cow",
     handshape: "Y",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Headside",
     handshape: "Y",
@@ -583,7 +603,7 @@ export const signs = [
     name: "Cry",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "1",
@@ -593,7 +613,7 @@ export const signs = [
     name: "Curly",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Headside",
     handshape: "Bent 5",
@@ -613,7 +633,7 @@ export const signs = [
     name: "Dim",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "5",
@@ -643,7 +663,7 @@ export const signs = [
     name: "Distribute",
     handshape: "Flattened O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Torso",
     handshape: "Flattened O",
@@ -673,7 +693,7 @@ export const signs = [
     name: "During",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "1",
@@ -683,7 +703,7 @@ export const signs = [
     name: "Dye",
     handshape: "F",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "F",
@@ -723,7 +743,7 @@ export const signs = [
     name: "Either",
     handshape: "V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "V",
@@ -783,7 +803,7 @@ export const signs = [
     name: "Excited",
     handshape: "Open 8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Torso",
     handshape: "Open 8",
@@ -803,7 +823,7 @@ export const signs = [
     name: "Express",
     handshape: "A",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Torso",
     handshape: "A",
@@ -813,7 +833,7 @@ export const signs = [
     name: "Family",
     handshape: "F ",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "F ",
@@ -823,7 +843,7 @@ export const signs = [
     name: "Famous",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "1",
@@ -853,7 +873,7 @@ export const signs = [
     name: "Feedback",
     handshape: "8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "8",
@@ -863,7 +883,7 @@ export const signs = [
     name: "Fight",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "S",
@@ -873,7 +893,7 @@ export const signs = [
     name: "Finally",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "1",
@@ -923,7 +943,7 @@ export const signs = [
     name: "Focus",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Open B",
@@ -933,7 +953,7 @@ export const signs = [
     name: "Football",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "5",
@@ -983,7 +1003,7 @@ export const signs = [
     name: "Free",
     handshape: "F",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "F",
@@ -993,7 +1013,7 @@ export const signs = [
     name: "Freeze",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "5",
@@ -1003,7 +1023,7 @@ export const signs = [
     name: "Friendly",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "5",
@@ -1023,7 +1043,7 @@ export const signs = [
     name: "Funeral",
     handshape: "V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "V",
@@ -1033,7 +1053,7 @@ export const signs = [
     name: "General",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Open B",
@@ -1043,7 +1063,7 @@ export const signs = [
     name: "Get",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "5",
@@ -1073,7 +1093,7 @@ export const signs = [
     name: "Glasses",
     handshape: "Bent L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Headside",
     handshape: "Bent L",
@@ -1083,7 +1103,7 @@ export const signs = [
     name: "Globe",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -1123,7 +1143,7 @@ export const signs = [
     name: "Grammar",
     handshape: "G",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "G",
@@ -1173,7 +1193,7 @@ export const signs = [
     name: "Happen",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "1",
@@ -1183,7 +1203,7 @@ export const signs = [
     name: "Hard",
     handshape: "Bent V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "Bent V",
@@ -1193,7 +1213,7 @@ export const signs = [
     name: "Hate",
     handshape: "8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "8",
@@ -1203,7 +1223,7 @@ export const signs = [
     name: "Headache",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "1",
@@ -1213,7 +1233,7 @@ export const signs = [
     name: "Hurricane",
     handshape: "Open N",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Open N",
@@ -1223,7 +1243,7 @@ export const signs = [
     name: "Hurt",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "1",
@@ -1253,7 +1273,7 @@ export const signs = [
     name: "Important",
     handshape: "F",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "F",
@@ -1283,7 +1303,7 @@ export const signs = [
     name: "Intercourse",
     handshape: "V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Palm",
     handshape: "V",
@@ -1293,7 +1313,7 @@ export const signs = [
     name: "Internet",
     handshape: "Open 8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Open 8",
@@ -1303,7 +1323,7 @@ export const signs = [
     name: "Interpret",
     handshape: "F",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "F",
@@ -1313,7 +1333,7 @@ export const signs = [
     name: "Introduce",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Open B",
@@ -1333,7 +1353,7 @@ export const signs = [
     name: "Jesus",
     handshape: "Open 8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Palm",
     handshape: "Open 8",
@@ -1363,7 +1383,7 @@ export const signs = [
     name: "Kiss",
     handshape: "Flattened O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Flattened O",
@@ -1393,7 +1413,7 @@ export const signs = [
     name: "Laugh",
     handshape: "Bent L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "Bent L",
@@ -1423,7 +1443,7 @@ export const signs = [
     name: "Line",
     handshape: "I",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "I",
@@ -1443,7 +1463,7 @@ export const signs = [
     name: "Lose weight",
     handshape: "Bent L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Torso",
     handshape: "Bent L",
@@ -1453,7 +1473,7 @@ export const signs = [
     name: "Make",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "S",
@@ -1463,7 +1483,7 @@ export const signs = [
     name: "Marry",
     handshape: "Bent B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Bent B",
@@ -1473,7 +1493,7 @@ export const signs = [
     name: "Match",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -1503,7 +1523,7 @@ export const signs = [
     name: "Merge",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "5",
@@ -1513,7 +1533,7 @@ export const signs = [
     name: "Messed-up",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -1533,7 +1553,7 @@ export const signs = [
     name: "Misunderstand",
     handshape: "V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "V",
@@ -1543,7 +1563,7 @@ export const signs = [
     name: "Mix-up",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -1553,7 +1573,7 @@ export const signs = [
     name: "More",
     handshape: "Flattened O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Flattened O",
@@ -1573,7 +1593,7 @@ export const signs = [
     name: "Mustache",
     handshape: "G",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "G",
@@ -1583,7 +1603,7 @@ export const signs = [
     name: "Nervous",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "5",
@@ -1643,7 +1663,7 @@ export const signs = [
     name: "Olympics",
     handshape: "F ",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "F ",
@@ -1673,7 +1693,7 @@ export const signs = [
     name: "Owl",
     handshape: "O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "O",
@@ -1693,7 +1713,7 @@ export const signs = [
     name: "Paper",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Palm",
     handshape: "5",
@@ -1703,7 +1723,7 @@ export const signs = [
     name: "Parallel",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "1",
@@ -1713,7 +1733,7 @@ export const signs = [
     name: "Pay attention",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Headside",
     handshape: "Open B",
@@ -1743,7 +1763,7 @@ export const signs = [
     name: "People audience",
     handshape: "K",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "K",
@@ -1773,7 +1793,7 @@ export const signs = [
     name: "Pillow",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Headside",
     handshape: "Bent 5",
@@ -1783,7 +1803,7 @@ export const signs = [
     name: "Play around",
     handshape: "Y",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Y",
@@ -1793,7 +1813,7 @@ export const signs = [
     name: "Play",
     handshape: "Y",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "Y",
@@ -1853,7 +1873,7 @@ export const signs = [
     name: "Pregnant",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "5",
@@ -1893,7 +1913,7 @@ export const signs = [
     name: "Raccoon",
     handshape: "V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Face",
     handshape: "V",
@@ -1903,7 +1923,7 @@ export const signs = [
     name: "Race",
     handshape: "Open A",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Open A",
@@ -1973,7 +1993,7 @@ export const signs = [
     name: "Replace",
     handshape: "Flattened O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "Flattened O",
@@ -1983,7 +2003,7 @@ export const signs = [
     name: "Responsibility",
     handshape: "Bent B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Arm",
     handshape: "Bent B",
@@ -2003,7 +2023,7 @@ export const signs = [
     name: "Road",
     handshape: "Bent V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
   },
@@ -2012,7 +2032,7 @@ export const signs = [
     name: "Roommate",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Bent 5",
@@ -2052,7 +2072,7 @@ export const signs = [
     name: "Sarcasm",
     handshape: "1L",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "1L",
@@ -2072,7 +2092,7 @@ export const signs = [
     name: "School",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Palm",
     handshape: "Open B",
@@ -2102,7 +2122,7 @@ export const signs = [
     name: "See saw",
     handshape: "Bent V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "Bent V",
@@ -2112,7 +2132,7 @@ export const signs = [
     name: "Sentence",
     handshape: "F",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "F",
@@ -2142,7 +2162,7 @@ export const signs = [
     name: "Shoes",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "S",
@@ -2182,7 +2202,7 @@ export const signs = [
     name: "Sit",
     handshape: "H",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "H",
@@ -2192,7 +2212,7 @@ export const signs = [
     name: "Smile",
     handshape: "Flattened O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "Flattened O",
@@ -2202,7 +2222,7 @@ export const signs = [
     name: "Socks",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "1",
@@ -2222,7 +2242,7 @@ export const signs = [
     name: "Spread",
     handshape: "Flattened O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "Flattened O",
@@ -2232,7 +2252,7 @@ export const signs = [
     name: "Square",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "1",
@@ -2262,7 +2282,7 @@ export const signs = [
     name: "Steam",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -2282,7 +2302,7 @@ export const signs = [
     name: "Storm",
     handshape: "Bent 5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Bent 5",
@@ -2302,7 +2322,7 @@ export const signs = [
     name: "Struggle",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "1",
@@ -2382,7 +2402,7 @@ export const signs = [
     name: "Swing",
     handshape: "H",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "H",
@@ -2392,7 +2412,7 @@ export const signs = [
     name: "System",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "S",
@@ -2412,7 +2432,7 @@ export const signs = [
     name: "Talk to self",
     handshape: "I",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Headside",
     handshape: "I",
@@ -2422,7 +2442,7 @@ export const signs = [
     name: "Tall",
     handshape: "Bent B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "Bent B",
@@ -2462,7 +2482,7 @@ export const signs = [
     name: "Tend",
     handshape: "Open 8",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Torso",
     handshape: "Open 8",
@@ -2492,7 +2512,7 @@ export const signs = [
     name: "Thin",
     handshape: "F ",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "F ",
@@ -2522,7 +2542,7 @@ export const signs = [
     name: "Tie",
     handshape: "Baby O",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "Baby O",
@@ -2602,7 +2622,7 @@ export const signs = [
     name: "Trouble",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Headside",
     handshape: "Open B",
@@ -2612,7 +2632,7 @@ export const signs = [
     name: "Trumpet",
     handshape: "C",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "C",
@@ -2622,7 +2642,7 @@ export const signs = [
     name: "Try",
     handshape: "T",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "T",
@@ -2642,7 +2662,7 @@ export const signs = [
     name: "Ugly",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Face",
     handshape: "1",
@@ -2652,7 +2672,7 @@ export const signs = [
     name: "Uniform",
     handshape: "H",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Torso",
     handshape: "H",
@@ -2662,7 +2682,7 @@ export const signs = [
     name: "Very",
     handshape: "V",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "V",
@@ -2692,7 +2712,7 @@ export const signs = [
     name: "Waist",
     handshape: "Bent B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Torso",
     handshape: "Bent B",
@@ -2702,7 +2722,7 @@ export const signs = [
     name: "Walk",
     handshape: "3",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "3",
@@ -2712,7 +2732,7 @@ export const signs = [
     name: "Want",
     handshape: "5",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "In space",
     handshape: "5",
@@ -2762,7 +2782,7 @@ export const signs = [
     name: "Wheel",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "1",
@@ -2772,7 +2792,7 @@ export const signs = [
     name: "Wheelchair",
     handshape: "1",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "In space",
     handshape: "1",
@@ -2802,7 +2822,7 @@ export const signs = [
     name: "Wide",
     handshape: "Open B",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Non-Repeated",
     location: "Hand",
     handshape: "Open B",
@@ -2822,7 +2842,7 @@ export const signs = [
     name: "Work",
     handshape: "S",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "S",
@@ -2852,7 +2872,7 @@ export const signs = [
     name: "Yawn",
     handshape: "Y",
 
-    hands: "Two-handed, symmetrical",
+    hands: "Two-handed, Symmetrical",
     movement: "Repeated",
     location: "Hand",
     handshape: "Y",
@@ -2878,6 +2898,8 @@ export const signs = [
     handshape: "Open A",
   },
 ];
+
+console.log(signs.length);
 
 const STIMULI_SIGNS = [
   "AUSTRALIA",
@@ -3044,7 +3066,7 @@ const filterMapping = {
   "location-8": ["location", "Other", 8],
 
   "hands-1": ["hands", "One-handed, moving", 1],
-  "hands-2": ["hands", "Two-handed, symmetrical", 2],
+  "hands-2": ["hands", "Two-handed, Symmetrical", 2],
   "hands-3": ["Two-handed, asymmetrical", 3],
 
   "handshape-1": ["handshape", "A", 1],
