@@ -1,242 +1,213 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>ASL Look-up</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/filter.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>ASL Look-up</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="module" src="../js/main.js"></script>
-  <script type="module" src="../js/filter.js"></script>
-</head>
-
-<body>
-  <section class="toolbar">
-    <div class="menu">
-      <div class="home">
-        <h1><a href="video.html?">Next</a></h1>
-      </div>
-    </div>
-  </section>
-
-  <section class="content">
-    <a id="button"></a>
-    <div id="filters" class="results-wrapper">
-      <div class="title-container">
-        <div class="results-title">
-          <h3>Search Results |</h3>
-          <p>Displaying <span class="number-of-signs"></span>&nbsp;signs</p>
+  <body>
+    <section class="toolbar">
+      <div class="menu">
+        <div class="home">
+          <h1><a href="video.html?">Next</a></h1>
         </div>
       </div>
-      <div id="base-filters">
-        <button name="movement-filters" class="toggle-filter-btn">
-          Movement
-        </button>
-        <button name="hands-filters" class="toggle-filter-btn">
-          Number of Hands
-        </button>
-        <button name="location-filters" class="toggle-filter-btn">
-          Location
-        </button>
+    </section>
 
-        <button name="handshape-filters" class="toggle-filter-btn">
-          Handshape
-        </button>
+    <section class="content">
+      <a id="button"></a>
+      <div id="filters" class="results-wrapper">
+        <div class="title-container">
+          <div class="results-title">
+            <h3>Search Results |</h3>
+            <p>Displaying <span class="number-of-signs"></span>&nbsp;signs</p>
+          </div>
+        </div>
+        <div id="base-filters">
+          <button name="movement-filters" class="toggle-filter-btn">
+            Movement
+          </button>
+          <button name="hands-filters" class="toggle-filter-btn">
+            Number of Hands
+          </button>
+          <button name="location-filters" class="toggle-filter-btn">
+            Location
+          </button>
 
+          <button name="handshape-filters" class="toggle-filter-btn">
+            Handshape
+          </button>
 
-        <div class="filter-container" id="movement-filters">
-          <div class="filter-column">
-            <!-- <h3>Movement</h3>
+          <div class="filter-container" id="movement-filters">
+            <div class="filter-column">
+              <!-- <h3>Movement</h3>
             <hr /> -->
-            <p id="movement-1">
-              Non-Repeated
-            </p>
-            <p id="movement-2">
-              Repeated
-            </p>
-          </div>
-        </div>
-
-        <div class="filter-container" id="location-filters">
-          <div class="filter-column">
-            <p id="location-1">
-              In space
-            </p>
-            <p id="location-2">
-              Face
-            </p>
-            <p id="location-3">
-              Headside
-            </p>
-            <p id="location-4">
-              Palm
-            </p>
-            <p id="location-5">
-              Hand
-            </p>
-            <p id="location-6">
-              Arm
-            </p>
-            <p id="location-7">
-              Torso
-            </p>
-            <p id="location-8">
-              Other
-            </p>
-          </div>
-        </div>
-
-        <div class="filter-container" id="hands-filters">
-          <div class="filter-column">
-            <p id="hands-1">
-              One-handed, moving
-            </p>
-            <p id="hands-2">
-              Two-handed, symmetrical
-            </p>
-            <p id="hands-3">
-              Two-handed, asymmetrical
-            </p>
-          </div>
-        </div>
-
-        <div class="filter-container" id="handshape-filters">
-          <div class="row">
-            <div class="image-column">
-              <p id="handshape-1">
-                <img src='../filters/A.png' height="60%" />
-              </p>
-              <p id="handshape-2">
-                <img src='../filters/Open A.png' height="60%" />
-              </p>
-              <p id="handshape-3">
-                <img src='../filters/B.png' height="60%" />
-              </p>
-              <p id="handshape-4">
-                <img src='../filters/Open B.png' height="60%" />
-              </p>
-              <p id="handshape-5">
-                <img src='../filters/Bent B.png' height="60%" />
-              </p>
-              <p id="handshape-6">
-                <img src='../filters/C.png' height="60%" />
-              </p>
-              <p id="handshape-7">
-                <img src='../filters/D.png' height="60%" />
-              </p>
-              <p id="handshape-8">
-                <img src='../filters/E.png' height="60%" />
-              </p>
-              <p id="handshape-9">
-                <img src='../filters/F.png' height="60%" />
-              </p>
-              <p id="handshape-10">
-                <img src='../filters/Open F.png' height="60%" />
-              </p>
-              <p id="handshape-11">
-                <img src='../filters/G.png' height="60%" />
-              </p>
-              <p id="handshape-12">
-                <img src='../filters/H.png' height="60%" />
-              </p>
-              <p id="handshape-13">
-                <img src='../filters/I.png' height="60%" />
-              </p>
-              <p id="handshape-14">
-                <img src='../filters/K.png' height="60%" />
-              </p>
-              <p id="handshape-15">
-                <img src='../filters/L.png' height="60%" />
-              </p>
-              <p id="handshape-16">
-                <img src='../filters/Bent L.png' height="60%" />
-              </p>
-              <p id="handshape-17">
-                <img src='../filters/M.png' height="60%" />
-              </p>
-              <p id="handshape-18">
-                <img src='../filters/N.png' height="60%" />
-              </p>
-              <p id="handshape-19">
-                <img src='../filters/Open N.png' height="60%" />
-              </p>
-              <p id="handshape-20">
-                <img src='../filters/O.png' height="60%" />
-              </p>
-              <p id="handshape-21">
-                <img src='../filters/Baby O.png' height="60%" />
-              </p>
-              <p id="handshape-22">
-                <img src='../filters/Flattened O.png' height="60%" />
-              </p>
-              <p id="handshape-23">
-                <img src='../filters/R.png' height="60%" />
-              </p>
-              <p id="handshape-24">
-                <img src='../filters/S.png' height="60%" />
-              </p>
-              <p id="handshape-25">
-                <img src='../filters/T.png' height="60%" />
-              </p>
-              <p id="handshape-26">
-                <img src='../filters/V.png' height="60%" />
-              </p>
-              <p id="handshape-27">
-                <img src='../filters/Bent V.png' height="60%" />
-              </p>
-              <p id="handshape-28">
-                <img src='../filters/W.png' height="60%" />
-              </p>
-              <p id="handshape-29">
-                <img src='../filters/X.png' height="60%" />
-              </p>
-              <p id="handshape-30">
-                <img src='../filters/Y.png' height="60%" />
-              </p>
-              <p id="handshape-31">
-                <img src='../filters/L1.png' height="60%" />
-              </p>
-              <p id="handshape-32">
-                <img src='../filters/1L.png' height="60%" />
-              </p>
-              <p id="handshape-33">
-                <img src='../filters/1.png' height="60%" />
-              </p>
-              <p id="handshape-34">
-                <img src='../filters/3.png' height="60%" />
-              </p>
-              <p id="handshape-35">
-                <img src='../filters/Bent 3.png' height="60%" />
-              </p>
-              <p id="handshape-36">
-                <img src='../filters/4.png' height="60%" />
-              </p>
-              <p id="handshape-37">
-                <img src='../filters/5.png' height="60%" />
-              </p>
-              <p id="handshape-38">
-                <img src='../filters/Bent 5.png' height="60%" />
-              </p>
-              <p id="handshape-39">
-                <img src='../filters/8.png' height="60%" />
-              </p>
-              <p id="handshape-40">
-                <img src='../filters/Open 8.png' height="60%" />
-              </p>
-
+              <p id="movement-1">Non-Repeated</p>
+              <p id="movement-2">Repeated</p>
             </div>
           </div>
 
+          <div class="filter-container" id="location-filters">
+            <div class="filter-column">
+              <p id="location-1">In space</p>
+              <p id="location-2">Face</p>
+              <p id="location-3">Headside</p>
+              <p id="location-4">Palm</p>
+              <p id="location-5">Hand</p>
+              <p id="location-6">Arm</p>
+              <p id="location-7">Torso</p>
+              <p id="location-8">Other</p>
+            </div>
+          </div>
+
+          <div class="filter-container" id="hands-filters">
+            <div class="filter-column">
+              <p id="hands-1">One-handed, moving</p>
+              <p id="hands-2">Two-handed, symmetrical</p>
+              <p id="hands-3">Two-handed, asymmetrical</p>
+            </div>
+          </div>
+
+          <div class="filter-container" id="handshape-filters">
+            <div class="row">
+              <div class="image-column">
+                <p id="handshape-1">
+                  <img src="../filters/A.png" height="60%" />
+                </p>
+                <p id="handshape-2">
+                  <img src="../filters/Open A.png" height="60%" />
+                </p>
+                <p id="handshape-3">
+                  <img src="../filters/B.png" height="60%" />
+                </p>
+                <p id="handshape-4">
+                  <img src="../filters/Open B.png" height="60%" />
+                </p>
+                <p id="handshape-5">
+                  <img src="../filters/Bent B.png" height="60%" />
+                </p>
+                <p id="handshape-6">
+                  <img src="../filters/C.png" height="60%" />
+                </p>
+                <p id="handshape-7">
+                  <img src="../filters/D.png" height="60%" />
+                </p>
+                <p id="handshape-8">
+                  <img src="../filters/E.png" height="60%" />
+                </p>
+                <p id="handshape-9">
+                  <img src="../filters/F.png" height="60%" />
+                </p>
+                <p id="handshape-10">
+                  <img src="../filters/Open F.png" height="60%" />
+                </p>
+                <p id="handshape-11">
+                  <img src="../filters/G.png" height="60%" />
+                </p>
+                <p id="handshape-12">
+                  <img src="../filters/H.png" height="60%" />
+                </p>
+                <p id="handshape-13">
+                  <img src="../filters/I.png" height="60%" />
+                </p>
+                <p id="handshape-14">
+                  <img src="../filters/K.png" height="60%" />
+                </p>
+                <p id="handshape-15">
+                  <img src="../filters/L.png" height="60%" />
+                </p>
+                <p id="handshape-16">
+                  <img src="../filters/Bent L.png" height="60%" />
+                </p>
+                <p id="handshape-17">
+                  <img src="../filters/M.png" height="60%" />
+                </p>
+                <p id="handshape-18">
+                  <img src="../filters/N.png" height="60%" />
+                </p>
+                <p id="handshape-19">
+                  <img src="../filters/Open N.png" height="60%" />
+                </p>
+                <p id="handshape-20">
+                  <img src="../filters/O.png" height="60%" />
+                </p>
+                <p id="handshape-21">
+                  <img src="../filters/Baby O.png" height="60%" />
+                </p>
+                <p id="handshape-22">
+                  <img src="../filters/Flattened O.png" height="60%" />
+                </p>
+                <p id="handshape-23">
+                  <img src="../filters/R.png" height="60%" />
+                </p>
+                <p id="handshape-24">
+                  <img src="../filters/S.png" height="60%" />
+                </p>
+                <p id="handshape-25">
+                  <img src="../filters/T.png" height="60%" />
+                </p>
+                <p id="handshape-26">
+                  <img src="../filters/V.png" height="60%" />
+                </p>
+                <p id="handshape-27">
+                  <img src="../filters/Bent V.png" height="60%" />
+                </p>
+                <p id="handshape-28">
+                  <img src="../filters/W.png" height="60%" />
+                </p>
+                <p id="handshape-29">
+                  <img src="../filters/X.png" height="60%" />
+                </p>
+                <p id="handshape-30">
+                  <img src="../filters/Y.png" height="60%" />
+                </p>
+                <p id="handshape-31">
+                  <img src="../filters/L1.png" height="60%" />
+                </p>
+                <p id="handshape-32">
+                  <img src="../filters/1L.png" height="60%" />
+                </p>
+                <p id="handshape-33">
+                  <img src="../filters/1.png" height="60%" />
+                </p>
+                <p id="handshape-34">
+                  <img src="../filters/3.png" height="60%" />
+                </p>
+                <p id="handshape-35">
+                  <img src="../filters/Bent 3.png" height="60%" />
+                </p>
+                <p id="handshape-36">
+                  <img src="../filters/4.png" height="60%" />
+                </p>
+                <p id="handshape-37">
+                  <img src="../filters/5.png" height="60%" />
+                </p>
+                <p id="handshape-38">
+                  <img src="../filters/Bent 5.png" height="60%" />
+                </p>
+                <p id="handshape-39">
+                  <img src="../filters/8.png" height="60%" />
+                </p>
+                <p id="handshape-40">
+                  <img src="../filters/Open 8.png" height="60%" />
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
 
+        <p id="clear">Clear all</p>
+        <hr />
 
-
-      <p id="clear" onclick="clearFilters()">Clear all</p>
-      <hr />
-
-      <!-- <div class="filter-container" id="filters">
+        <!-- <div class="filter-container" id="filters">
           <div class="filter-column">
             <h3>Orientation</h3>
             <hr />
@@ -314,13 +285,12 @@
           </div>
         </div> -->
 
-      <div class="results-grid-container">
-        <div id="signs" class="results-grid"></div>
+        <div class="results-grid-container">
+          <div id="signs" class="results-grid"></div>
+        </div>
+
+        <em id="error-message"></em>
       </div>
-
-      <em id="error-message"></em>
-    </div>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>
