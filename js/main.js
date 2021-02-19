@@ -1,12 +1,7 @@
 $(document).ready(__main__);
 // $(window).load(videoNext)
-import {
-  addSign,
-  signs as handSigns,
-  formatSignProperty,
-  signClick,
-} from "./filter.js";
-// import {signs} from './'
+import { formatSignProperty } from "./filter.js";
+import { signs as handSigns } from "./signs.js";
 
 function getCamera() {
   let video = $("#video").get(0);
@@ -91,7 +86,6 @@ function loadGrid() {
       var index = ks[i % ks.length];
       //var curr = signs_order[i]
       var curr = JSON.parse(localStorage.getItem("stimuliSignObject"));
-      console.log(curr);
       var total_signs_flow = signs_order.length;
     } else {
       var curr = flow.Sample;
@@ -159,7 +153,7 @@ function addImage(name) {
   const id = name.split(" ").join("_");
   const sign = filterReadySigns[name];
 
-  let grid = `<div class="result-box"> <div class="result-image" id="${id}"></div><div class="result-title"><p> ${name} </p></div>`;
+  let grid = `<div class="result-box" name = "${name}"> <div class="result-image" id="${id}"></div><div class="result-title"><p> ${name} </p></div>`;
 
   // Display only if data available
   if (sign !== undefined) {
@@ -302,6 +296,7 @@ function getVideo() {
       if (i < 16) {
         localStorage.setItem("stimuliSign", curr["Sign"]);
         localStorage.setItem("stimuliSignObject", JSON.stringify(curr));
+        // localStorage.setItem("stimuliPosition", JSON.stringify(curr));
         console.log(curr);
       }
     } else {

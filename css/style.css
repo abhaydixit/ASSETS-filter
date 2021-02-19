@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -404,7 +404,7 @@ a {
 }
 
 #button::after {
-  content: '\f077';
+  content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -484,7 +484,7 @@ input:valid ~ label {
 
 .bar:before,
 .bar:after {
-  content: '';
+  content: "";
   height: 2px;
   width: 0;
   bottom: 1px;
@@ -569,7 +569,7 @@ input:focus ~ .highlight {
 .calibration-wrapper .picture-holder {
   width: 100%;
   padding-bottom: 58%;
-  background-image: url('../calibration/earth.png');
+  background-image: url("../calibration/earth.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -597,7 +597,6 @@ input:focus ~ .highlight {
   font-size: 1.5rem;
 }
 
-/* filter */
 .toggle-filter-btn {
   font-weight: bold;
   cursor: pointer;
@@ -627,17 +626,39 @@ input:focus ~ .highlight {
 .filter-container .image-column {
   text-align: left;
   display: grid;
-  grid-template-columns: repeat(10,0.8fr);
-  grid-template-rows: repeat(4,1fr);
+  grid-template-columns: repeat(10, 0.8fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 0.15rem;
   margin: 0.25rem;
   cursor: pointer;
 }
 
+/* .filter-container .image-column :hover {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(10, 0.8fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 0.15rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  border: 3px solid rgb(119, 118, 118);
+} */
+
 .filter-container .image-column .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.select-img-filter:hover {
+  box-shadow: 0 0 3px 0 rgb(119, 118, 118);
+}
+
+#handshape-filters .row {
+  width: 100%;
+}
+
+#handshape-filters img.clicked {
+  border: 3px solid rgb(44, 44, 44);
+}
 #clear {
   display: none;
   text-align: center;
