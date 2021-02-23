@@ -293,7 +293,7 @@ function getVideo() {
       // var index = ks[i % ks.length]
       // var curr = sign_order[index]
       var curr = sign_order[i];
-      if (i < 16) {
+      if (i < 24) {
         localStorage.setItem("stimuliSign", curr["Sign"]);
         localStorage.setItem("stimuliSignObject", JSON.stringify(curr));
         // localStorage.setItem("stimuliPosition", JSON.stringify(curr));

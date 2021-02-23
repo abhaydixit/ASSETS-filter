@@ -2429,7 +2429,7 @@ export const signs = [
   },
   {
     URL: "./images/Talk-to-self.gif",
-    name: "Talk to self",
+    name: "Talk-to-self",
     handshape: "I",
 
     hands: "Two-handed, Symmetrical",

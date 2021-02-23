@@ -4,27 +4,32 @@
   "releaseDate": "2019-02-24T00:00:00.000Z",
   "model": "http://www.objgen.com/json/models/LqPZn",
   "Ks": [
-		"16",
-		"0",
-		"7",
-		"5",
-		"24",
-		"3",
-		"6",
-		"20",
-		"2",
-		"4",
-		"12",
-		"10",
-		"1",
-		"18",
-		"14",
-		"8"
-  ],
-  "Display_modes": [
+    "16",
     "0",
-    "1"
+    "7",
+    "5",
+    "24",
+    "3",
+    "6",
+    "20",
+    "2",
+    "4",
+    "12",
+    "10",
+    "1",
+    "18",
+    "14",
+    "8",
+    "9",
+    "11",
+    "13",
+    "15",
+    "17",
+    "19",
+    "21",
+    "23"
   ],
+  "Display_modes": ["0", "1"],
   "Signs": {
     "1-1": [
       "Alcohol",
@@ -315,331 +320,209 @@
     "Handshape": "bent_5",
     "Location": "Chest",
     "Index": "10",
-    "Similar": [
-      "Focus",
-      "General"
-    ]
+    "Similar": ["Focus", "General"]
   },
   "Flow": [
-		{
-			"Sign": "Cigarette",
-			"Handshape": "1-1",
-			"Location": "Chest",
-			"Similar": [
-				"Alcohol",
-				"Conflict",
-				"Happen",
-				"Answer",
-				"During",
-				"Parallel"
-			]
-		},
-		{
-			"Sign": "Scotland",
-			"Handshape": "4-5",
-			"Location": "Chest",
-			"Similar": [
-				"Rainbow",
-				"Fine",
-				"Fingerspell"
-			]
-		},
-		{
-			"Sign": "Curly",
-			"Handshape": "bent_5",
-			"Location": "Head",
-			"Similar": [
-				"Ball",
-				"Globe",
-				"Storm"
-			]
-		},
-		{
-			"Sign": "Chicago",
-			"Handshape": "c",
-			"Location": "Chest",
-			"Similar": [
-				"Christmas",
-				"Cafeteria",
-				"Character",
-				"Cousin",
-				"Drink"
-			]
-		},
-		{
-			"Sign": "Olympics",
-			"Handshape": "f",
-			"Location": "Chest",
-			"Similar": [
-				"Cooperate",
-				"Simple",
-				"Sew"
-			]
-		},
-		{
-			"Sign": "Internet",
-			"Handshape": "open_8",
-			"Location": "Chest",
-			"Similar": [
-				"Contact"
-			]
-		},
-		{
-			"Sign": "Fork",
-			"Handshape": "v",
-			"Location": "Chest",
-			"Similar": [
-				"Dance",
-				"Toast",
-				"Read",
-				"Twice"
-			]
-		},
-		{
-			"Sign": "Silly",
-			"Handshape": "y",
-			"Location": "Head",
-			"Similar": [
-				"Kid",
-				"Drunk"
-			]
-		},
-		{
-			"Sign": "Struggle",
-			"Handshape": "1-1",
-			"Location": "Chest",
-			"Similar": [
-				"Happen",
-				"Answer",
-				"During",
-				"Parallel",
-				"Wheel"
-			]
-		},
-		{
-			"Sign": "Dirty",
-			"Handshape": "4-5",
-			"Location": "Head",
-			"Similar": [
-				"Color",
-				"Farm",
-				"Fine"
-			]
-		},
-		{
-			"Sign": "Mix-up",
-			"Handshape": "bent_5",
-			"Location": "Chest",
-			"Similar": [
-				"Messed-up"
-			]
-		},
-		{
-			"Sign": "Giraffe",
-			"Handshape": "c",
-			"Location": "Head",
-			"Similar": [
-				"Choke",
-				"Orange"
-			]
-		},
-		{
-			"Sign": "Free",
-			"Handshape": "f",
-			"Location": "Chest",
-			"Similar": [
-				"Important",
-				"Interpret",
-				"Sentence",
-				"Feedback"
-			]
-		},
-		{
-			"Sign": "Tend",
-			"Handshape": "open_8",
-			"Location": "Chest",
-			"Similar": [
-				"Excited",
-				"Touch-heart"
-			]
-		},
-		{
-			"Sign": "Funeral",
-			"Handshape": "v",
-			"Location": "Chest",
-			"Similar": [
-				"Intercourse",
-				"Either",
-				"Very"
-			]
-		},
-		{
-			"Sign": "Cow",
-			"Handshape": "y",
-			"Location": "Head",
-			"Similar": [
-				"Yellow",
-				"Why",
-				"Blond"
-			]
-		},
-		{
-			"Sign": "Wheel",
-			"Handshape": "1-1",
-			"Location": "Chest",
-			"Similar": [
-				"Hurt",
-				"Wheelchair",
-				"Think opposite",
-				"Struggle"
-			]
-		},
-		{
-			"Sign": "Rainbow",
-			"Handshape": "4-5",
-			"Location": "Chest",
-			"Similar": [
-				"Scotland",
-				"Fine",
-				"Fingerspell"
-			]
-		},
-		{
-			"Sign": "Save-money",
-			"Handshape": "bent_5",
-			"Location": "Chest",
-			"Similar": [
-				"Learn",
-				"Include",
-				"Match"
-			]
-		},
-		{
-			"Sign": "Character",
-			"Handshape": "c",
-			"Location": "Chest",
-			"Similar": [
-				"Cafeteria",
-				"Christmas",
-				"Chicago"
-			]
-		},
-		{
-			"Sign": "Sentence",
-			"Handshape": "f",
-			"Location": "Chest",
-			"Similar": [
-				"Free",
-				"Important",
-				"Interpret",
-				"Feedback"
-			]
-		},
-		{
-			"Sign": "Jesus",
-			"Handshape": "open_8",
-			"Location": "Chest",
-			"Similar": [
-				"Hate",
-				"Awful"
-			]
-		},
-		{
-			"Sign": "Salt",
-			"Handshape": "v",
-			"Location": "Chest",
-			"Similar": [
-				"Ride",
-				"Twice",
-				"Sit",
-				"Train"
-			]
-		},
-		{
-			"Sign": "Yawn",
-			"Handshape": "y",
-			"Location": "Chest",
-			"Similar": [
-				"Stay"
-			]
-		},
-		{
-			"Sign": "Famous",
-			"Handshape": "1-1",
-			"Location": "Head",
-			"Similar": [
-				"Announce",
-				"Finally",
-				"Headache",
-				"Think opposite"
-			]
-		},
-		{
-			"Sign": "Fancy",
-			"Handshape": "4-5",
-			"Location": "Chest",
-			"Similar": [
-				"Grandmother",
-				"Ignore",
-				"Polite",
-				"Fine",
-				"Formerly",
-				"Farm"
-			]
-		},
-		{
-			"Sign": "Puff-smoke",
-			"Handshape": "O",
-			"Location": "face",
-			"hands": "One-handed, moving",
-			"movement": "Unidirectional",
-			"Similar": [
-				"Storm",
-				"Radio"
-			]
-		},
-		{
-			"Sign": "Pig",
-			"Handshape": "c",
-			"Location": "Head",
-			"Similar": [
-				"Drink"
-			]
-		},
-		{
-			"Sign": "Dye",
-			"Handshape": "f",
-			"Location": "Chest",
-			"Similar": [
-				"Vote",
-				"Feedback"
-			]
-		},
-		{
-			"Sign": "Australia",
-			"Handshape": "open_8",
-			"Location": "Chest",
-			"Similar": [
-				"Hate",
-				"Awful"
-			]
-		},
-		{
-			"Sign": "Bridge",
-			"Handshape": "v",
-			"Location": "Chest",
-			"Similar": [
-				"Predict"
-			]
-		},
-		{
-			"Sign": "Subway",
-			"Handshape": "y",
-			"Location": "Chest",
-			"Similar": [
-				"Country",
-				"Whale"
-			]
-		}
-	]
+    {
+      "Sign": "Cigarette",
+      "Handshape": "1-1",
+      "Location": "Chest",
+      "Similar": [
+        "Alcohol",
+        "Conflict",
+        "Happen",
+        "Answer",
+        "During",
+        "Parallel"
+      ]
+    },
+    {
+      "Sign": "Scotland",
+      "Handshape": "4-5",
+      "Location": "Chest",
+      "Similar": ["Rainbow", "Fine", "Fingerspell"]
+    },
+    {
+      "Sign": "Curly",
+      "Handshape": "bent_5",
+      "Location": "Head",
+      "Similar": ["Ball", "Globe", "Storm"]
+    },
+    {
+      "Sign": "Chicago",
+      "Handshape": "c",
+      "Location": "Chest",
+      "Similar": ["Christmas", "Cafeteria", "Character", "Cousin", "Drink"]
+    },
+    {
+      "Sign": "Olympics",
+      "Handshape": "f",
+      "Location": "Chest",
+      "Similar": ["Cooperate", "Simple", "Sew"]
+    },
+    {
+      "Sign": "Internet",
+      "Handshape": "open_8",
+      "Location": "Chest",
+      "Similar": ["Contact"]
+    },
+    {
+      "Sign": "Fork",
+      "Handshape": "v",
+      "Location": "Chest",
+      "Similar": ["Dance", "Toast", "Read", "Twice"]
+    },
+    {
+      "Sign": "Silly",
+      "Handshape": "y",
+      "Location": "Head",
+      "Similar": ["Kid", "Drunk"]
+    },
+    {
+      "Sign": "Struggle",
+      "Handshape": "1-1",
+      "Location": "Chest",
+      "Similar": ["Happen", "Answer", "During", "Parallel", "Wheel"]
+    },
+    {
+      "Sign": "Dirty",
+      "Handshape": "4-5",
+      "Location": "Head",
+      "Similar": ["Color", "Farm", "Fine"]
+    },
+    {
+      "Sign": "Mix-up",
+      "Handshape": "bent_5",
+      "Location": "Chest",
+      "Similar": ["Messed-up"]
+    },
+    {
+      "Sign": "Giraffe",
+      "Handshape": "c",
+      "Location": "Head",
+      "Similar": ["Choke", "Orange"]
+    },
+    {
+      "Sign": "Free",
+      "Handshape": "f",
+      "Location": "Chest",
+      "Similar": ["Important", "Interpret", "Sentence", "Feedback"]
+    },
+    {
+      "Sign": "Tend",
+      "Handshape": "open_8",
+      "Location": "Chest",
+      "Similar": ["Excited", "Touch-heart"]
+    },
+    {
+      "Sign": "Funeral",
+      "Handshape": "v",
+      "Location": "Chest",
+      "Similar": ["Intercourse", "Either", "Very"]
+    },
+    {
+      "Sign": "Cow",
+      "Handshape": "y",
+      "Location": "Head",
+      "Similar": ["Yellow", "Why", "Blond"]
+    },
+    {
+      "Sign": "Wheel",
+      "Handshape": "1-1",
+      "Location": "Chest",
+      "Similar": ["Hurt", "Wheelchair", "Think opposite", "Struggle"]
+    },
+    {
+      "Sign": "Rainbow",
+      "Handshape": "4-5",
+      "Location": "Chest",
+      "Similar": ["Scotland", "Fine", "Fingerspell"]
+    },
+    {
+      "Sign": "Save-money",
+      "Handshape": "bent_5",
+      "Location": "Chest",
+      "Similar": ["Learn", "Include", "Match"]
+    },
+    {
+      "Sign": "Character",
+      "Handshape": "c",
+      "Location": "Chest",
+      "Similar": ["Cafeteria", "Christmas", "Chicago"]
+    },
+    {
+      "Sign": "Sentence",
+      "Handshape": "f",
+      "Location": "Chest",
+      "Similar": ["Free", "Important", "Interpret", "Feedback"]
+    },
+    {
+      "Sign": "Jesus",
+      "Handshape": "open_8",
+      "Location": "Chest",
+      "Similar": ["Hate", "Awful"]
+    },
+    {
+      "Sign": "Salt",
+      "Handshape": "v",
+      "Location": "Chest",
+      "Similar": ["Ride", "Twice", "Sit", "Train"]
+    },
+    {
+      "Sign": "Yawn",
+      "Handshape": "y",
+      "Location": "Chest",
+      "Similar": ["Stay"]
+    },
+    {
+      "Sign": "Famous",
+      "Handshape": "1-1",
+      "Location": "Head",
+      "Similar": ["Announce", "Finally", "Headache", "Think opposite"]
+    },
+    {
+      "Sign": "Fancy",
+      "Handshape": "4-5",
+      "Location": "Chest",
+      "Similar": ["Grandmother", "Ignore", "Polite", "Fine", "Formerly", "Farm"]
+    },
+    {
+      "Sign": "Puff-smoke",
+      "Handshape": "O",
+      "Location": "face",
+      "hands": "One-handed, moving",
+      "movement": "Unidirectional",
+      "Similar": ["Storm", "Radio"]
+    },
+    {
+      "Sign": "Pig",
+      "Handshape": "c",
+      "Location": "Head",
+      "Similar": ["Drink"]
+    },
+    {
+      "Sign": "Dye",
+      "Handshape": "f",
+      "Location": "Chest",
+      "Similar": ["Vote", "Feedback"]
+    },
+    {
+      "Sign": "Australia",
+      "Handshape": "open_8",
+      "Location": "Chest",
+      "Similar": ["Hate", "Awful"]
+    },
+    {
+      "Sign": "Bridge",
+      "Handshape": "v",
+      "Location": "Chest",
+      "Similar": ["Predict"]
+    },
+    {
+      "Sign": "Subway",
+      "Handshape": "y",
+      "Location": "Chest",
+      "Similar": ["Country", "Whale"]
+    }
+  ]
 }
