@@ -87,10 +87,8 @@ async function logTime() {
     // });
 
     console.log(JSON.stringify(signStats));
-    await fetch("http://localhost:5000/create", {
+    await fetch("https://nsfsearch-backend.herokuapp.com/api/filter/create", {
       method: "POST",
-      mode: "no-cors",
-
       headers: {
         "Content-Type": "application/json",
       },
@@ -107,22 +105,28 @@ async function logTime() {
   }
 }
 
-export function signClick(name) {
-  const stimuliSign = localStorage.getItem("stimuliSign");
+// var nextBtn = document.getElementById("next");
+// if (nextBtn) {
+//   nextBtn.addEventListener("click", function () {
+//     logTime().then(() => {
+//       let i = getParameter("i") + 1;
+//       let p = getParameter("p");
+//       if (i >= 24) $(".content").html("<h1>Thank you</h1>");
+//       window.location.href = `video.html?i=${i}&p=${p}`;
+//     });
+//     return false;
+//   });
+// }
 
-  if (stimuliSign === name) {
-    logTime();
-  }
-}
-
-//
-var nextBtn = document.getElementById("next");
-if (nextBtn) {
-  next.addEventListener("click", function () {
-    console.log("Logging time now!");
-    logTime();
+window.nextPage = () => {
+  logTime().then(() => {
+    let i = getParameter("i") + 1;
+    let p = getParameter("p");
+    if (i >= 24) $(".content").html("<h1>Thank you</h1>");
+    window.location.href = `video.html?i=${i}&p=${p}`;
   });
-}
+  return false;
+};
 
 // adds onclick listner to result imgs to log the time
 var clickedSign = document.getElementById("signs");

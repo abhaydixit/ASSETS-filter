@@ -2579,7 +2579,7 @@ export const signs = [
   },
   {
     URL: "./images/Touch-heart.gif",
-    name: "Touch heart",
+    name: "Touch-heart",
     handshape: "Open 8",
 
     hands: "One-handed, Moving",
