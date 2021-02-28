@@ -614,6 +614,8 @@ input:focus ~ .highlight {
   justify-content: space-between;
   align-items: flex-start;
   margin: 1rem auto;
+  height: 300px;
+  overflow: scroll;
 }
 
 .filter-container .filter-column p {

@@ -23,6 +23,10 @@ function getCamera() {
 function bindRecord() {
   $(".record-button").click(function () {
     if ($(this).hasClass("stop")) {
+      const date = new Date();
+      const startTime = date.getTime();
+      localStorage.setItem("startTime", startTime);
+      console.log("Started logging time now!");
       showResults($(this));
     } else {
       countdown($(this));
@@ -72,8 +76,6 @@ function setIndexQuery(index, selector) {
 function getQuery(i, p) {
   return "i=" + i + "&p=" + p;
 }
-
-console.log(setIndexQuery.return);
 
 function loadGrid() {
   loadJSON("flow.json", function (flow) {

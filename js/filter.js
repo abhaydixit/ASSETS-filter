@@ -263,16 +263,13 @@ const filterMapping = {
 const baseFilters = document.getElementById("base-filters");
 if (baseFilters) {
   baseFilters.addEventListener("click", (event) => {
-    console.log(event.target.nodeName);
     if (event.target.nodeName === "BUTTON") {
-      console.log(event.target.name);
       toggleFilters(event.target.name);
     } else if (
       event.target.nodeName === "P" ||
       event.target.nodeName === "IMG"
     ) {
       const elFilterByType = filterMapping[event.target.id];
-      console.log(elFilterByType);
       filterByType(elFilterByType[0], elFilterByType[1], elFilterByType[2]);
     } else if (event.target.nodeName === "IMG") {
     } else {
@@ -349,7 +346,6 @@ function clearFilters() {
   // remove all child nodes of signs container
   $(".results-grid")[0].innerHTML = "";
   const localSigns = JSON.parse(localStorage.getItem("signs"));
-  console.log(localSigns);
   localSigns.forEach((sign, index) => addSign(filterReadySigns[sign], index));
 
   // update the number of signs in the UI
