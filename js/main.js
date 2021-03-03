@@ -290,12 +290,12 @@ function getVideo() {
     let i = getParameter("i");
     const p = getParameter("p");
     if (i >= 0) {
-      let sign_order = flow.Flow.slice(0, 24);
+      let sign_order = flow.Flow.slice(0, 32);
       // var ks = LatinSquare(flow.Ks, p)
       // var index = ks[i % ks.length]
       // var curr = sign_order[index]
       var curr = sign_order[i];
-      if (i < 24) {
+      if (i < 32) {
         localStorage.setItem("stimuliSign", curr["Sign"]);
         localStorage.setItem("stimuliSignObject", JSON.stringify(curr));
         // localStorage.setItem("stimuliPosition", JSON.stringify(curr));
@@ -502,7 +502,7 @@ function __main__() {
   let path = getEndOfPath(window.location.pathname);
   let i = getParameter("i");
   loadJSON("flow.json", function (flow) {
-    let sign_order = flow.Flow.slice(0, 24);
+    let sign_order = flow.Flow.slice(0, 32);
     if (sign_order.length <= i) {
       $(".content").html("<h1>Thank you</h1>");
     }
