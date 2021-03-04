@@ -105,19 +105,6 @@ async function logTime() {
   }
 }
 
-// var nextBtn = document.getElementById("next");
-// if (nextBtn) {
-//   nextBtn.addEventListener("click", function () {
-//     logTime().then(() => {
-//       let i = getParameter("i") + 1;
-//       let p = getParameter("p");
-//       if (i >= 24) $(".content").html("<h1>Thank you</h1>");
-//       window.location.href = `video.html?i=${i}&p=${p}`;
-//     });
-//     return false;
-//   });
-// }
-
 window.nextPage = () => {
   logTime().then(() => {
     let i = getParameter("i") + 1;
@@ -193,6 +180,7 @@ const filterContainers = [
   "location-filters",
   "hands-filters",
   "handshape-filters",
+  "to-use",
 ];
 
 function hideFilterContainer(containerId) {
